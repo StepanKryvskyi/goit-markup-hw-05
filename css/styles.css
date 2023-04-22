@@ -238,6 +238,7 @@ button {
 .btn:hover,
 .btn:focus {
   background-color: var(--acsent-color);
+  transition: var(--anim-links);
 }
 
 /* Advantages section */
@@ -377,6 +378,7 @@ button {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--acsent-color);
+  transition: var(--anim-links);
 }
 .socials-icon {
   fill: #f4f4fd;
@@ -427,6 +429,7 @@ button {
 .partner-links:focus {
   color: #404bbf;
   border-color: #404bbf;
+  transition: var(--anim-links);
 }
 .partner-icon {
   fill: currentColor;
@@ -465,6 +468,7 @@ button {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: var(--anim-links);
 }
 
 .works-list {
@@ -494,7 +498,8 @@ button {
 .portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+    transition: var(--anim-links);
+  }
 
 .caption {
   font-weight: 500;
@@ -553,6 +558,7 @@ button {
 .socials-footer-link:hover,
 .socials-footer-link:focus {
   background-color: #31d0aa;
+  transition: var(--anim-links);
 }
 .socials-footer-icon {
   fill: #f4f4fd;
