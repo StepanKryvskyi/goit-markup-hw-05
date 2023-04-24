@@ -476,7 +476,7 @@ button {
   border-radius: 4px;
   padding: 12px 24px;
 
-  transition-property: background-color;
+  transition-property: background-color, color, box-border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -562,8 +562,8 @@ button {
   transition: transform 250ms ease-in-out;
 }
 
-.works-item:hover .overlay,
-.works-item:focus .overlay {
+.portfolio-link:hover .overlay,
+.portfolio-link:focus .overlay {
   transform: translateY(0);
 }
 
@@ -698,4 +698,13 @@ button {
 
   border-radius: 50%;
   border: none;
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+  background-color: var(--acsent-color);
+  fill: #ffffff;
+  transition-property: background-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
